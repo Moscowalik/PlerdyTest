@@ -1,0 +1,13 @@
+.mobile__menu {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: $primary-white-color;
+  top: 50px;
+  left: 0;
+  padding: 20px 10px;
+
+  @media (min-width: 500px) {
+    padding: 30px;
+  }
+}

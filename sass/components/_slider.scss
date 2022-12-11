@@ -1,0 +1,47 @@
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiperBtns__container {
+      display: none;
+
+      @media (min-width: 1025px) {
+        display: flex;
+        gap: 15px;
+      }
+
+      & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        background-color: $btn-color;
+        border: 0px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      & div:hover {
+        background-color: $active-color;
+      }
+
+      & div svg {
+        fill: $primary-white-color;
+      }
+    }
+
+
+    .products-swiper-button-next svg {
+      transform: rotate(180deg);
+    }
+
+    .swiper-pagination {
+      position: static;
+      margin-top: 5px;
+
+      @media (min-width: 1025px) {
+        display: none;
+      }
+    }

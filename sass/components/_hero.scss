@@ -1,0 +1,163 @@
+.hero {
+  padding-top: 60px;
+
+  @media (min-width: 1025px) {
+    padding-top: 69px;
+  }
+}
+
+.hero__container {
+  background-color: $main-background-color;
+  padding: 20px 10px;
+  border-radius: 10px;
+
+  @media (min-width: 600px) {
+    padding: 40px 20px;
+  }
+
+  @media (min-width: 1025px) {
+    display: flex;
+    gap: 50px;
+    padding: 80px 50px;
+  }
+}
+
+.hero__title {
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+
+  @media (min-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+.hero__text {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  color: $primary-text-color;
+  margin-top: 20px;
+  text-align: justify;
+
+  &--grey {
+    color: $grey-color;
+  }
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.hero__btn {
+  margin: 20px auto;
+
+  @media (min-width: 600px) {
+    &.button {
+      font-size: 16px;
+    }
+  }
+}
+
+.hero__phrase {
+  display: block;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  text-align: center;
+  color: $primary-text-color;
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -20px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+
+  @media (min-width: 600px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  flex-basis: calc((100% / 3) - 20px);
+  margin-left: 20px;
+  margin-bottom: 15px;
+
+  & .img {
+    height: auto;
+  }
+
+  @media (min-width: 600px) {
+    flex-basis: auto;
+  }
+}
+
+.hero__mainContent {
+  @media (min-width: 1025px) {
+    width: 60%;
+  }
+}
+
+.hero__mediaContainer {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  @media (min-width: 600px) {
+    margin-top: 40px;
+  }
+
+  @media (min-width: 1025px) {
+    width: 40%;
+    margin-top: 0;
+  }
+}
+
+.hero__mainImg {
+  object-fit: cover;
+}
+
+.hero__SecondaryImg {
+  position: absolute;
+  width: 50%;
+  opacity: 0;
+
+  &--1 {
+    top: -5%;
+    left: -10%;
+    transform: translateY(-100px);
+  }
+
+  &--2 {
+    top: 15%;
+    right: -15%;
+    transform: translateX(100px);
+  }
+
+  &--3 {
+    bottom: 10%;
+    left: -15%;
+    transform: translateX(-100px);
+  }
+
+  &.block-show {
+    opacity: 1;
+    transition: all 0.7s;
+    transform: translate(0, 0);
+  }
+}

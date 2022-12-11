@@ -1,0 +1,119 @@
+<svg
+  aria-hidden="true"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<symbol id='humburger' viewBox="0 0 24 13">
+<path
+      d="M1 1.5L23 1.5"
+      stroke="#001E41"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+<path
+      d="M1 6.5L23 6.5"
+      stroke="#001E41"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+<path
+      d="M1 11.5L23 11.5"
+      stroke="#001E41"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+</symbol>
+<symbol id='closeBtn' viewBox="0 0 10 10">
+<path
+      d="M1.64062 9.01562L0.984375 8.35937L4.59375 4.75L0.984375 1.14062L1.64062 0.484375L5.25 4.09375L8.85937 0.484375L9.51562 1.14062L5.90625 4.75L9.51562 8.35937L8.85937 9.01562L5.25 5.40625L1.64062 9.01562Z"
+    />
+</symbol>
+<symbol id="icon-check" viewBox="0 0 42 32">
+<path
+      fill="#fff"
+      style="fill: var(--color1, #fff); stroke: var(--color1, #fff)"
+      stroke="#fff"
+      stroke-linejoin="miter"
+      stroke-linecap="butt"
+      stroke-miterlimit="4"
+      stroke-width="0.64"
+      d="M6.262 15.206l-0.221-0.211-0.221 0.208-3.085 2.925 0.243 0.234 11.408 10.88 0.221-0.211 24.256-23.139-0.243-0.23-3.043-2.902-0.221 0.211-20.97 19.987-8.125-7.75z"
+    />
+</symbol>
+<symbol id="logo" viewBox="0 0 23 15">
+<path
+      d="M0.25 8.67622V13.0316C0.25 13.8207 0.909178 14.4606 1.72264 14.4606H5.6968V6.7395L0.25 8.67622Z"
+    />
+<path d="M5.92383 6.7395L7.8693 9.57389V14.4604L5.92383 11.8678V6.7395Z" />
+<path d="M8.09692 5.48502V14.4606H13.5465L13.5437 3.54834L8.09692 5.48502Z" />
+<path
+      d="M13.7705 3.5481L15.9855 7.2801V14.4606L13.7717 10.6214L13.7705 3.5481Z"
+    />
+<path
+      d="M16.2128 2.194V14.4606H20.9063C21.7196 14.4606 22.3788 13.8209 22.3788 13.0315V0L16.2128 2.194Z"
+    />
+<defs>
+<linearGradient
+        id="paint0_linear_1_2569"
+        x1="0.25"
+        y1="-0.000138533"
+        x2="23.9995"
+        y2="3.51748"
+        gradientUnits="userSpaceOnUse"
+      >
+<stop stop-color="#2D8DFE" />
+<stop offset="1" stop-color="#0E77F1" />
+</linearGradient>
+<linearGradient
+        id="paint1_linear_1_2569"
+        x1="0.249832"
+        y1="-0.000139367"
+        x2="23.9994"
+        y2="3.51748"
+        gradientUnits="userSpaceOnUse"
+      >
+<stop stop-color="#2D8DFE" />
+<stop offset="1" stop-color="#0E77F1" />
+</linearGradient>
+<linearGradient
+        id="paint2_linear_1_2569"
+        x1="0.250149"
+        y1="1.31328e-05"
+        x2="23.9997"
+        y2="3.51763"
+        gradientUnits="userSpaceOnUse"
+      >
+<stop stop-color="#2D8DFE" />
+<stop offset="1" stop-color="#0E77F1" />
+</linearGradient>
+<linearGradient
+        id="paint3_linear_1_2569"
+        x1="0.2499"
+        y1="-1.28627e-05"
+        x2="23.9994"
+        y2="3.51761"
+        gradientUnits="userSpaceOnUse"
+      >
+<stop stop-color="#2D8DFE" />
+<stop offset="1" stop-color="#0E77F1" />
+</linearGradient>
+<linearGradient
+        id="paint4_linear_1_2569"
+        x1="0.250075"
+        y1="4.19052e-07"
+        x2="23.9996"
+        y2="3.51762"
+        gradientUnits="userSpaceOnUse"
+      >
+<stop stop-color="#2D8DFE" />
+<stop offset="1" stop-color="#0E77F1" />
+</linearGradient>
+</defs>
+</symbol>
+<symbol id='white-arrow' viewBox="0 0 14 14">
+<path
+      d="M6.99999 0.333414L7.87499 1.22925L2.72916 6.37508L13.6667 6.37508L13.6667 7.62508L2.72916 7.62508L7.87499 12.7709L6.99999 13.6667L0.333324 7.00008L6.99999 0.333414Z"
+    />
+</symbol>
+</svg>

@@ -1,0 +1,150 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: $primary-white-color;
+  z-index: 3;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  img {
+    width: 90px;
+  }
+}
+
+.humburger {
+  padding: 0px;
+  height: fit-content;
+  background-color: transparent;
+  border: 0px;
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: none;
+
+  @media (min-width: 600px) {
+    & {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+    }
+
+    & .nav__item {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    & {
+      column-gap: 30px;
+    }
+
+    & .nav__item {
+      font-size: 18px;
+    }
+  }
+}
+
+.nav__item {
+  font-family: $secondary-font;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #7d7d7d;
+
+  &--mobile:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    color: $btn-color;
+  }
+}
+
+.nav__contacts {
+  display: none;
+
+  @media (min-width: 600px) {
+    & {
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+    }
+
+    & .contacts__link {
+      font-size: 14px;
+    }
+
+    & .button.contacts__link {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    & {
+      column-gap: 40px;
+    }
+
+    & .contacts__link {
+      font-size: 18px;
+    }
+
+    & .button.contacts__link {
+      font-size: 18px;
+    }
+  }
+}
+
+.mobile__contacts {
+  margin-top: 20px;
+}
+
+.contacts__link {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #5d78ff;
+
+  &:hover {
+    color: $active-color;
+  }
+
+  &.button {
+    display: inline-block;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 6px 20px;
+    text-align: center;
+  }
+
+  &.button:hover {
+    color: $primary-white-color;
+  }
+
+  .mobile__contacts &.button {
+    margin-left: 30px;
+  }
+}
